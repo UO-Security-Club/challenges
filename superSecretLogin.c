@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	}
 
 	strncpy(password_buffer, argv[1], 21);
-        if(strcmp(password_buffer, password))
+        if(strcmp(password_buffer, password) == 0)
 	{
 		auth_flag = 0x41424344;
 	}
